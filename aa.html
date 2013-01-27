@@ -1,0 +1,52 @@
+!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>tim melideo photography</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<style type="text/css">@import url("GAslideshow.css");</style>
+
+
+<body>
+<div id="contenedorGaleria">
+<div id="contenedorImagenes">
+<div id="lasImagenes">
+<a href="javascript:imgNav(-1)" class="galNavegacion" id="galAtras"></a>
+<a href="javascript:imgNav(1)" class="galNavegacion" id="galAdelante"></a>
+</div>
+</div>
+<div id="contenedorMiniaturas-outter">
+<div id="contenedorMiniaturas-inner">
+<ul id="lasMiniaturas">
+<li value="1"><img src="GAImagemini1.jpg" height="100" width="175" /></li>
+<li value="2"><img src="GAImagemini2.jpg" height="100" width="175" /></li>
+<li value="3"><img src="GAImagemini3.jpg" height="100" width="175" /></li>
+<li value="4"><img src="GAImagemini4.jpg" height="100" width="175" /></li>
+<li value="5"><img src="GAImagemini5.jpg" height="100" width="175" /></li>
+</ul>
+</div>
+</div>
+</div>
+
+<script type="text/javascript">
+// la lista de imágenes
+var imagenGaleria = new Array();
+imagenGaleria[0] = ""; // dejar en blanco
+imagenGaleria[1] = "GAImage1.jpg";
+imagenGaleria[2] = "GAImage2.jpg";
+imagenGaleria[3] = "GAImage3.jpg";
+imagenGaleria[4] = "GAImage4.jpg";
+imagenGaleria[5] = "GAImage5.jpg";
+
+var imgid = 'lasImagenes'; // el ID del bloque donde se mostrarán las imágenes
+var thumbid = 'lasMiniaturas'; // el ID del bloque con las miniaturas
+var auto = true; // poner en false si no se quiere que el slideshow funcione automáticamente
+var autodelay = 5; // cantidad de segundos entre cada imagen
+</script>
+<script type="text/javascript" src="GAslideshow.js"></script>
+<script type="text/javascript">slideShow();</script>
+
+</body>
+</html>
+

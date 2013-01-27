@@ -1,0 +1,75 @@
+#contenedorGaleria {
+	background-color: #848FAA;
+	border: 6px solid #444F6A;
+	margin: 0px auto;
+	padding: 10px;
+	width: 494px;
+}
+#contenedorMiniaturas-outter {
+	background-color: #505961;
+	border: 2px solid #505961;
+	height: 100px;
+	margin-top: 10px;
+	padding: 0;
+	width: 490px;
+}
+#contenedorMiniaturas-inner {
+	height: 100px;
+	overflow: hidden;
+	position: relative;
+	width: 490px;
+}
+#lasMiniaturas {
+	border-right: 5px solid #FFFFFF;
+	height: 100px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 5000px;
+}
+#lasMiniaturas li {
+	cursor: pointer;
+	float: left;
+	margin: 0 1px;
+	padding: 0;
+}
+#lasImagenes {
+	background: #FFFFFF url(http://img98.imageshack.us/img98/570/loadingvx8.gif) no-repeat center center;
+	border: 2px solid #505961;
+	height: 272px;
+	padding: 5px;
+	position: relative;
+	width: 480px;
+	}
+#lasImagenes img {
+	left: 5px
+	position: absolute;
+	top: 5px;
+}
+.galNavegacion{
+	cursor: pointer;
+	height: 272px;
+	outline: none;
+	position: absolute;
+	width: 20%;
+	z-index: 100;
+}
+#galAtras {
+	background: url(http://img98.imageshack.us/img98/5697/leftyo5.gif) no-repeat left center;
+	left: 0;
+	border-left: 5px solid #FFFFFF;
+}
+#galAtras:hover {
+	filter:alpha(opacity=100);
+	opacity: 1;
+}
+#galAdelante {
+	border-right: 5px solid #FFFFFF;
+	background: url(http://img98.imageshack.us/img98/2913/rightqk9.gif) no-repeat right center;
+	right: 0;
+}
+#galAdelante:hover {
+	filter:alpha(opacity=100);
+	opacity: 1;
+}
